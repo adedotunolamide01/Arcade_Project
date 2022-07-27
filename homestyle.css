@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  background-color: rgb(98, 187, 98);
+  /* background: url(image/arcade.jpeg);*/
+  background-position: center;
+  background-size: cover;
+}
+
+img {
+  padding: auto;
+  margin: 20px 10px 10px 30px;
+  width: 100px;
+  height: 30px;
+  float: left;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.menu {
+  width: 400px;
+  height: 70px;
+  float: left;
+}
+
+ul {
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: rgb(116, 219, 116);
+}
+
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+  margin-top: 20px;
+}
